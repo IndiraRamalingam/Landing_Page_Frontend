@@ -1,0 +1,218 @@
+/* For announcement Page */
+
+.announcementContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.aContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.aBadge{
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.aPara{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 17px;
+}
+
+/* For NavBar */
+
+
+/* For HeroSection */
+.maintxt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.maintxt > img, .overlay-text {
+    position: absolute;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+}
+.overlay-text {
+    padding: 30px 30px;
+    position: relative;
+}
+.hPara1{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+.hPara2{
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.hPara3{
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.btn-purple{
+    background-color: #582066;
+    color: white;
+}
+.btn-purple:hover{
+    background-color: purple;
+    color: white;
+}
+
+/* For Logo Cloud page */
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .brands__item img {
+    display: block;
+    max-width: 100%;
+    width:100px;
+    height: 20px;
+  }
+
+/* For Feature1 Page */
+.featuretxt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.featuretxt, .overlay-feature {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.overlay-feature {
+    padding: 20px 0px;
+    position: relative;
+}
+
+.fPara1{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+.fPara3{
+    color:#582066;
+    text-align: center;
+}
+
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 1023px) and (max-width: 1366px){
+ 
+    /* For HeroSection */
+    .maintxt > img, .overlay-text {
+        position: absolute;
+        width:75%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+    }
+    .overlay-text {
+        padding: 25px 20px;
+        position: relative;
+    }
+}
+       
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ 
+/* For HeroSection */
+.maintxt > img, .overlay-text {
+    position: absolute;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+}
+.overlay-text {
+    padding: 25px 20px;
+    position: relative;
+}
+}
+     
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+/* For HeroSection */
+.maintxt > img, .overlay-text {
+    position: absolute;
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+}
+.overlay-text {
+    padding: 25px 20px;
+    position: relative;
+}
+
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) and (min-width:300px) {
+
+/* For announcement Page */
+
+/* For HeroSection */
+.maintxt > img, .overlay-text {
+    position: absolute;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;  
+}
+.overlay-text {
+    padding: 10px 10px;
+    position: relative;
+}
+
+/* For LogoClouds */
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+  }
+}
