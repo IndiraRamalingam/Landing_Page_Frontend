@@ -111,11 +111,12 @@
     
 }
 .featuretxt, .overlay-feature {
-    width:70%;
+    
     margin-left: auto;
     margin-right: auto;
 }
 .overlay-feature {
+    width:50%;
     padding: 20px 0px;
     position: relative;
 }
@@ -133,7 +134,31 @@
     color:#582066;
     text-align: center;
 }
-
+.fBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.fTitle{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+}
+.fSentence{
+    color: var(--Neutral-400, #5A6475);
+    width: 80%;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
 
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -151,6 +176,14 @@
         padding: 25px 20px;
         position: relative;
     }
+
+    /* For Feature1 */
+    .overlay-feature {
+        width:60%;
+        padding: 25px 0px;
+        position: relative;
+    }
+
 }
        
 
@@ -167,6 +200,13 @@
 }
 .overlay-text {
     padding: 25px 20px;
+    position: relative;
+}
+
+/* For Feature1 */
+.overlay-feature {
+    width:60%;
+    padding: 25px 0px;
     position: relative;
 }
 }
@@ -186,6 +226,12 @@
 .overlay-text {
     padding: 25px 20px;
     position: relative;
+}
+/* For Feature1 */
+.overlay-feature {
+    padding: 25px 0px;
+    position: relative;
+    width: 70%;
 }
 
 }
@@ -215,4 +261,9 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 1rem;
   }
+
+  .overlay-feature {
+    padding: 10px 10px;
+    position: relative;
+}
 }
