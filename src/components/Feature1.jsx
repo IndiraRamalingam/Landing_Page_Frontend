@@ -15,17 +15,17 @@ function Feature1() {
                 </div>
         </div>
         <div className='row' style={{marginTop:'50px'}}>
-            <div className='col-xl-4 col-md-12 fBox'>
+            <div className='col-xl-4 col-md-12 col-sm-12 fBox'>
                 <img src={Globe} alt="globe"/ >
                 <p className='fTitle'>Globally Accepted</p>
                 <p className='fSentence'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
             </div>
-            <div className='col-xl-4 col-md-12 fBox'>
+            <div className='col-xl-4 col-md-12 col-sm-12 fBox'>
             <img src={Key} alt="key"/ >
                 <p className='fTitle'>Biometric Integrated</p>
                 <p className='fSentence'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
             </div>
-            <div className='col-xl-4 col-md-12 fBox'>
+            <div className='col-xl-4 col-md-12 col-sm-12 fBox'>
             <img src={Lock} alt="lock"/ >
                 <p className='fTitle'>Fully Secured</p>
                 <p className='fSentence'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
