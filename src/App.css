@@ -158,7 +158,7 @@
     align-items: center;
     flex-shrink: 0;
     border-radius: 8px;
-    background: whitesmoke; 
+    background: #FAF9FF; 
 }
 
 
@@ -206,6 +206,27 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+}
+.fI1 {
+    width: 12%;
+    position: relative;
+    top: -215px;
+    left: -20px;
+    z-index: 1;
+    mix-blend-mode:darken;
+}
+.fI2 {
+    mix-blend-mode: multiply;
+    width: 27%;
+    position: relative;
+    top: -117px;
+    left: -33px;
+    z-index: 1;
+}
+.fI3{
+    position: absolute;
+    z-index:0;
+    left:235px;
 }
 .img1{
     width: 100.25px;

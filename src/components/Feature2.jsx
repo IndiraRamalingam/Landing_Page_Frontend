@@ -19,14 +19,17 @@ function Feature2() {
         <div className='row ' style={{marginTop:'50px'}}>
             <div className='col-xl-5 col-md-12 col-sm-12 m-5 fBox2'>
               <div className='fOne'>
-                <img src={Scene} alt="scene"/ >
-                <img className='group12' src={Group12} />  
-                <img className='rectangle' src={Rectangle}/>
+              
+                <img src={Scene} className="fI3" alt="scene"/ >
+                  <img className='fI1' src={Group12} />  
+              <img className='fI2' src={Rectangle}/>
+                
               </div>
             </div>
             
             <div className='col-xl-5 col-md-12 col-sm-12 m-5 fBox2'>
-                <div className='fTwo'>
+            {/* <img className='fI1' src={Group12} />   */}
+                <div className='fTwo ' >
                   <div className='text_Box'>
                       <div className='row p-3'>
                             <div className='row'>
