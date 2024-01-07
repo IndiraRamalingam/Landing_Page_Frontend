@@ -134,6 +134,11 @@
     color:#582066;
     text-align: center;
 }
+.fPara3:hover{
+    color:#582066;
+    text-align: center;
+    text-decoration: underline;
+}
 .fBox{
     display: flex;
     flex-direction: column;
@@ -195,6 +200,31 @@
     line-height: 35px;
 }
 
+/* For Footer Page */
+.footerTitle{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+.footerText{
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 1023px) and (max-width: 1366px){
